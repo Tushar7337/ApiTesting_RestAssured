@@ -10,7 +10,7 @@ public class TrstAdminoperations extends AdminLogin {
         AdminLogin adminLogin = new AdminLogin();
         adminLogin.adminLogin();
         AdminCreate adminCreate = new AdminCreate();
-        adminCreate.adminCreate();
+        //adminCreate.adminCreate();
 
     }
 }
