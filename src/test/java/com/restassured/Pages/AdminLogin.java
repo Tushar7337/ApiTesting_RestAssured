@@ -21,7 +21,7 @@ public class AdminLogin {
         JSONObject request = new JSONObject();
 
         request.put("user","super_admin");
-        request.put("password","Super1@trst");
+        request.put("password","************");
 
        Response response = given()
                 .contentType("application/json")
