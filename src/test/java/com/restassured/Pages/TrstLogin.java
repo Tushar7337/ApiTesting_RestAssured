@@ -32,7 +32,7 @@ public class TrstLogin {
         JSONObject request = new JSONObject();
 
         request.put("user", "sweden@gmail.com");
-        request.put("password", "Pass@1234");
+        request.put("password", "*******");
 
         System.out.println(request.toJSONString());
 
