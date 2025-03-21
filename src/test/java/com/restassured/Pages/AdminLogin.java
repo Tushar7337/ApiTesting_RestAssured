@@ -16,7 +16,7 @@ public class AdminLogin {
     @BeforeClass
     public void adminLogin(){
 
-        baseURI = "**********************";
+        baseURI = "http://localhost:3000";
 
         JSONObject request = new JSONObject();
 
