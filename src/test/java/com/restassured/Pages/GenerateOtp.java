@@ -14,7 +14,7 @@ public class GenerateOtp {
 @Test
     public void generateOtp(){
 
-        baseURI = "https://qa.api.trsthealth.com";
+        baseURI = "http://localhost:3000";
 
         JSONObject request = new JSONObject();
 
