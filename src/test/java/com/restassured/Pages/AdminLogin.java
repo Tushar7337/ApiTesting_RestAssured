@@ -16,7 +16,7 @@ public class AdminLogin {
     @BeforeClass
     public void adminLogin(){
 
-        baseURI = "https://qa.api.trsthealth.com";
+        baseURI = "**********************";
 
         JSONObject request = new JSONObject();
 
