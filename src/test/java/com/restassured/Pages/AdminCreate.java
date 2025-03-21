@@ -27,7 +27,7 @@ public class AdminCreate extends AdminLogin {
     public void adminCreate(){
 
         System.out.println(authToken);
-        baseURI = "******************";
+        baseURI = "http://localhost:3000";
 
         String uniqueStr = "" + getUniqueNumber();
         String phoneNumber = uniqueStr.substring(uniqueStr.length()-10);
