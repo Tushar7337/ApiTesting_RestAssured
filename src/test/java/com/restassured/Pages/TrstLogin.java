@@ -27,7 +27,7 @@ public class TrstLogin {
     public  void trstLogin() {
 
 
-        baseURI = "https://qa.api.trsthealth.com";
+        baseURI = "http://localhost:3000";
 
         JSONObject request = new JSONObject();
 
