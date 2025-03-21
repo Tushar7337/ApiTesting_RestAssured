@@ -10,7 +10,7 @@ public class CrScoreApi extends TrstLogin {
 
     public void crScoreApi(){
 
-        baseURI = "https://qa.api.trsthealth.com";
+        baseURI = "http://localhost:3000";
 
         System.out.println(accessToken);
 
